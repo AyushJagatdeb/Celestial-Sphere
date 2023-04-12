@@ -60,6 +60,7 @@
     text-transform: uppercase; 
     color:black;
 }
+
 #parallax p 
 {
     font-family:'Source Sans Pro', sans-serif; 
@@ -67,6 +68,8 @@
     font-size:14px; 
     line-height:24px;
 }
+
+
 .first-character 
 {
     font-weight:400;
@@ -113,63 +116,162 @@
     background-color: black; 
     opacity: 0.70;
 }
+       
 
-#parallax.parallax-one,parallax-two,.parallax-three,.parallax-four,.parallax-five,.parallax-six,.parallax-seven,.parallax-eight
+#parallax .p1 
 {
-    padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; 
-    background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat;
-
-}       
-#parallax.parallax-one
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
-}
-#parallax.parallax-two
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
-}
-#parallax.parallax-three
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
-}
-#parallax.parallax-four
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
-}
-#parallax.parallax-five
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
-}
-#parallax.parallax-six
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
-}
-#parallax.parallax-seven
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
-}
-#parallax.parallax-eight
-{
-    background-image: url(https://wallpapercave.com/wp/wp4047228.png);
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://wallpapercave.com/wp/wp4047228.png); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 
+    top center;
 }
 
-/*#parallax .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/wp4047228.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/wp2248770.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/wp12029802.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/wp8880466.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/wp4098405.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/CsFOQDt.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/wp9198898.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax .parallax-eight {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpapercave.com/wp/wp1898944.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-*/
+
+
+#parallax .p2 
+
+{
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp2248770.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
+#parallax .p3 
+
+{
+    
+    padding-top: 200px; ;
+    padding-bottom: 200px; ;
+    overflow: hidden; ;
+    position: relative; ;
+    width: 100%; ;
+    background-image: url(https://wallpapercave.com/wp/wp12029802.jpg); ;
+    background-attachment: fixed;;
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+
+}
+
+
+#parallax .p4 
+{
+    padding-top: 200px; 
+    padding-bottom: 200px;
+     overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://wallpapercave.com/wp/wp8880466.jpg);
+     background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+
+#parallax .p5 
+{
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://wallpapercave.com/wp/wp4098405.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+
+#parallax .p6 
+{
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://wallpapercave.com/wp/CsFOQDt.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+
+#parallax .p7 
+{
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://wallpapercave.com/wp/wp9198898.png); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+
+
+#parallax .p8 
+{
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden;
+     position: relative; 
+    width: 100%; 
+    background-image: url(https://wallpapercave.com/wp/wp1898944.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
 
 #parallax .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
 
 
-@media screen and (max-width: 959px) and (min-width: 768px) {
+@media screen and (max-width: 959px) and (min-width: 768px)
+{
   #parallax .block {padding: 40px; width:620px;}
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) 
+{
   #parallax .block {padding: 30px; width:420px;}
   #parallax h2 {font-size:30px;}
   #parallax .block {padding: 30px;}
