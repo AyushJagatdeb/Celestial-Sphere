@@ -7,26 +7,25 @@
     width: 100%; 
     padding:0;
 }
-.content-asset p 
+.content
+ p 
 {
     margin:0 auto;
 }
-.breadcrumb 
-{
-    display:none;
 
+.line-break
+{
+    padding-top:20px;
+    padding-bottom:10px;
+    margin-bottom:60px;
+    
 }
 
-
-
-.margin-top-10 
+.margin 
 {
     padding-top:10px;
 }
-.margin-bot-10 
-{
-    padding-bottom:10px;
-}
+
 
 #parallax h1 
 {
@@ -70,7 +69,7 @@
 }
 
 
-.first-character 
+.init
 {
     font-weight:400;
     float: left; 
@@ -94,7 +93,7 @@
 
 
 
-#parallax .block 
+#parallax .content
 {
     background: white; 
     padding: 60px; 
@@ -263,20 +262,52 @@
 }
 
 
-#parallax .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+#parallax .line-break 
+{
+    border-bottom:1px solid black; 
+    width: 250px; 
+    margin:0 auto;
+    margin-bottom:15px;
+}
 
 
 @media screen and (max-width: 959px) and (min-width: 768px)
 {
-  #parallax .block {padding: 40px; width:620px;}
+  #parallax .content 
+  {
+    padding: 40px; 
+    width:620px;
+}
 }
 @media screen and (max-width: 767px) 
 {
-  #parallax .block {padding: 30px; width:420px;}
-  #parallax h2 {font-size:30px;}
-  #parallax .block {padding: 30px;}
-  #parallax .parallax-one, #parallax .parallax-two, #parallax .parallax-three {padding-top:100px; padding-bottom:100px;}
+  #parallax .content 
+  {
+    padding: 30px; 
+    width:420px;
 }
-@media screen and (max-width: 479px) {
-  #parallax .block {padding: 30px 15px; width:290px;}
+
+  #parallax h2 
+  {
+    font-size:30px;
+}
+
+  #parallax .content 
+  {
+    padding: 30px;
+}
+
+  #parallax .parallax-one, #parallax .parallax-two, #parallax .parallax-three 
+  {
+    padding-top:100px; 
+    padding-bottom:100px;
+}
+
+}
+@media screen and (max-width: 479px) 
+{
+  #parallax .content {
+    padding: 30px 15px; 
+    width:290px;
+}
 }
